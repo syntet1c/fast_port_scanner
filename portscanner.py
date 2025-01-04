@@ -1,6 +1,10 @@
 import socket
 import multiprocessing
 import argparse
+import pyfiglet
+
+f = pyfiglet.figlet_format("Syntetic", font="slant")
+print(f)
 
 def arguments():
     args = argparse.ArgumentParser()
